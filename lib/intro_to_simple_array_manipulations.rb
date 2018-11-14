@@ -45,6 +45,6 @@ end
 def using_delete_at(array, integer)
      array.using_delete_at(integer)
 end
-end 
+
   
 
