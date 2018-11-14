@@ -1,40 +1,33 @@
-def using_push(array)
-  array.push
+def using_push(array, string)
+  array.push(string)
 end
 
-def using_shift(array)
-  array.unshift
-  updated_array.size
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
 def using_pop(array)
   array.pop
-  updated_array.size
 end
 
 def pop_with_args(array)
- array.pop 
- updated_array.size
+ array.pop(2)
 end
 
 def using_shift(array)
-  array.shift
-  updated_array.size 
+  array.shift(string)
 end
 
 def shift_with_args(array)
-  array.shift
-  updated_array.size
+  array.shift(2)
 end
 
-def using_concat(array)
-  array.concat
-  updated_array.length
+def using_concat(array, arr2)
+  array.concat(arr2)
 end
 
-def using_insert(array)
-  array.insert
-  updated_array.length
+def using_insert(array, new_element)
+  array.insert(4, new_element)
 end
 
 def using_uniq(array)
@@ -45,12 +38,12 @@ def using_flatten(array)
    array.flatten
 end
   
-def using_delete(array)
-    array.delete
+def using_delete(array, string)
+    array.delete(string)
 end
   
-def using_delete_at(array)
-     array.using_delete_at(2)
+def using_delete_at(array, integer)
+     array.using_delete_at(integer)
 end
 end
   
